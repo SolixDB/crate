@@ -1,6 +1,17 @@
 [package]
 name = "solixdb"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
-[dependencies]
+description = "The Universal Solana Indexing Layer. This crate reserves the solixdb namespace and redirects developers to the official JavaScript/TypeScript implementation."
+license = "MIT"
+readme = "README.md"
+homepage = "https://solixdb.xyz"
+repository = "https://github.com/SolixDB/crate"
+documentation = "https://docs.solixdb.xyz"
+
+keywords = ["solana", "indexing", "blockchain", "database", "rpc"]
+categories = ["database", "cryptography", "api-bindings"]
+
+[lib]
+path = "src/lib.rs"
